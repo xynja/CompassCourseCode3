@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+/*Star Operator*/
+*{ /* <==Selector*/
+    margin: 0; /*<== Properties aka.Superpowers*/
+    padding: 0;/*<== Properties aka.Superpowers*/
+    font-family: 'Macondo', cursive;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+}
+.item{
+    color: chocolate ;
+}
+.head{
+    color: #00ff40 !important;
+}
+.item.head{
+    grid-column: 1 / span 12 ;
+    grid-row: 1 / span 1 ;
+}
+.item.foot{
+    background-color: #65C18C;
+    grid-column: 1 / span 12 ;
+    grid-row: 12 / span 1 ;
+}
+.item.side{
+    background-color: #FFBED8;
+    grid-column: 1 / span 2 ;
+    grid-row: 3 / span 9;
+}
+
+
+.item.ads{
+    background-color: #C1F4C5
+    grid-column: 11 / span 2 ;
+    grid-row: 3 / span 9;
+
+}
+

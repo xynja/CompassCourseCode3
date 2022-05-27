@@ -1,0 +1,5 @@
+.hoverMe:hover{
+    box-shadow: 10px 10px 10px 10px lightskyblue;
+    transition: box-shadow 2000ms ease-out;
+}
+

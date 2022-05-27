@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Variable house*/
+:root{
+    --poki1:rgba(236, 161, 110, 0.46);
+    --poki2:rgba(249, 23, 125, 0.46);
+    /*--raphaelswish:  deg;*/
+;
+}
+#ColorMe{
+    height: 100vh;
+    background: linear-gradient( to bottom,var(--poki1), var(--poki2));
+   /* --
+   background: linear-gradient(to bottom right,(var(raphaelswish:  deg;*/
+}

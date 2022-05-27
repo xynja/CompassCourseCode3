@@ -1,0 +1,9 @@
+body {
+    font-family: -apple-system, Roboto, sans-serif;
+    color: darkblue;
+    background-color: cornflowerblue;
+    height: 100vh;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+<!--div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+} -->
+
+ div {
+     width: 100px;
+     height: 100px;
+     background-color: lightblue;
+     border: 1px solid black;
+     transform: rotateX(150deg);
+     transition-timing-function: ease-in-out;
+     transition: 3s;
+ }
